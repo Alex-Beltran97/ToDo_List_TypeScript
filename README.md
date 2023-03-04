@@ -11,7 +11,7 @@ It's an application developed for save a list of task to do and check if it was 
 
 ## Preview Image
 
-![alt text for screen readers](/src/assets/preview.png "Preview Image").
+![alt text for screen readers](/assets/preview.png "Preview Image").
 
 ## WebSite Link deployed
 
