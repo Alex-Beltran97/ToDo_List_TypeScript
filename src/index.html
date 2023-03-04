@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/index.css" />
+  <title>todo-list</title>
+</head>
+<body>
+  <header>
+    <h2>ToDo List</h2>
+  </header>
+  <main>
+    <h1>ToDo List</h1>
+    <div class="add-task">
+      <input type="text" id="newTask" name="task" autocomplete="off" placeholder="Set any task" />
+      <button id="add-task-btn">Add</button>
+    </div>
+    <section id="tasks-container"></section>
+  </main>
+
+  <!-- temapltes -->
+  <template id="task-template">
+    <div class="task" id="task">
+      <div>
+        <input id="check-task" type="checkbox" />
+        <p id="taskName">Clean the house</p>
+      </div>
+      <input type="button" id="delete-task" title="Delete task" value="🗑" />
+    </div>
+  </template>
+
+  <script src="../dist/app.js" type="module"></script>
+</body>
+</html>
